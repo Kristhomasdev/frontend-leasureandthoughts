@@ -1,13 +1,19 @@
 // import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Link} from "react-router-dom";
 import CreateUser from "./components/useremail/useremail";
 // import {Component} from "react";
 // import axios from "axios";
 
-let Home=()=>{
+const Home=()=>{
   return(
-    <h1>CHAL RAHA HAI ....</h1>
+    <div>
+    <h1>Kedho haal aaye ??</h1>
+        <Link to="/user/newuser"> Magic </Link>
+    </div>
+    
+    
   )
 }
 // const UserEmail =()=>{
@@ -110,17 +116,20 @@ let Home=()=>{
 
 function App() {
   return (
+  <BrowserRouter>
     <div className="App">
-    <Home />
+    <Home/>
     
-    <BrowserRouter>
+    
+    
     <Routes>
       <Route path="/user/newuser" element={<CreateUser />} />
     </Routes>
-    </BrowserRouter>
+    
 
       
     </div>
+    </BrowserRouter>
   );
 }
 
