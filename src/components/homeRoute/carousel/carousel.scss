@@ -10,7 +10,10 @@
     filter:opacity(50%); 
 }
 #carousel-heading{
-    margin-top: -45%;
+    position:absolute;
+    top: 11rem;
+    
+    
     // @include centerText();
     text-align:center;
     width: 100%;

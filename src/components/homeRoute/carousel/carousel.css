@@ -7,7 +7,8 @@
             filter: opacity(50%);
   }
   #carousel-heading {
-    margin-top: -45%;
+    position: absolute;
+    top: 11rem;
     text-align: center;
     width: 100%;
     font-family: 'Alfa Slab One', cursive;
