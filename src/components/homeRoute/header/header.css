@@ -1,0 +1,63 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .trial {
+    height: 5rem;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 55px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 37.6em) and (max-width: 56.7em) {
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 40px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 56.71em) and (max-width: 75em) {
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 42px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 45px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 112.6em) {
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 50px;
+    width: calc(height*3.45);
+  }
+}
+/*# sourceMappingURL=header.css.map */

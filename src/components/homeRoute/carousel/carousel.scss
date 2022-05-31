@@ -1,0 +1,52 @@
+@import "../mixins.scss";
+//gOOgle AVI'S;
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@include respond(phone){
+    
+#carousel-image{
+    height: 20rem;
+    width: 100%;  
+    // filter: blur(.8px);
+    filter:opacity(50%); 
+}
+#carousel-heading{
+    margin-top: -45%;
+    // @include centerText();
+    text-align:center;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    z-index: 5;
+    position: absolute;
+    color: #383838;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+    // border: 3px solid;
+}
+#uppercase{
+    font-size:2.3rem;
+}
+#carousel-button{
+    margin-top: 7%;
+    border: 2px solid;
+}
+#carousel-button:hover{
+    outline: none;
+    border:0px;
+    
+}
+
+}
+@include respond(tab-potrait){
+
+}
+@include respond(tab-landscape){
+
+}
+
+@include respond(laptop){
+
+}
+
+@include respond(desktop){
+
+}

@@ -1,0 +1,62 @@
+@import "../mixins.scss";
+
+@include respond(phone){
+    .trial{
+        height:5rem;
+    }
+   
+    .navbar-brand{
+        @include centerText();
+        // border:3px solid;
+    }
+    #navbar-brand-icon{
+       height: 55px; 
+       width: calc(height*3.45);
+    }
+    
+
+}
+@include respond(tab-potrait){
+    .navbar-brand{
+        @include centerText();
+
+    }
+    #navbar-brand-icon{
+        height: 40px;
+        width:calc(height*3.45);
+    }
+
+}
+@include respond(tab-landscape){
+    .navbar-brand{
+        @include centerText();
+    }
+    #navbar-brand-icon{
+        height: 42px;
+        width: calc(height*3.45);
+    }
+
+}
+@include respond(laptop){
+    .navbar-brand{
+        @include centerText();
+
+    }
+    #navbar-brand-icon{
+        height: 45px;
+        width: calc(height*3.45);
+    }
+
+ 
+}
+
+@include respond(desktop){
+    .navbar-brand{
+        @include centerText();
+    }
+    #navbar-brand-icon{
+        height:50px;
+        width: calc(height*3.45);
+    }
+
+}  

@@ -14,7 +14,8 @@ export default class UserEmail extends Component{
         // methods
         this.changedForName = this.changedForName.bind(this);
         this.changedForEmail= this.changedForEmail.bind(this);
-        this.changedForQuery = this.changedForQuery.bind(this);    
+        this.changedForQuery = this.changedForQuery.bind(this);   
+         
         this.submit = this.submit.bind(this);
 
     }
@@ -33,6 +34,7 @@ export default class UserEmail extends Component{
             query:e.target.value
         })
     }
+    
     submit(e){
         e.preventDefault();
         let user ={
@@ -41,16 +43,26 @@ export default class UserEmail extends Component{
             query:this.state.query
         }
         axios.post("https://leisureandthoughts.herokuapp.com/user/newuser",user)
-        .then(res=>{console.log(res.data)});
+        .then((res)=>{
+            
+            console.log(res.data);
+                
+            // alert(user.name + " SAVED ++");
+            // console.log(this.afterLost(user));
+            // res.redirect("/user/newuser/added");
+            
+        });
         
-        // window.location="/";
+        
+        
         this.setState({
             name:"",
             email:"",
             query:""
-        })
-
+        });
+        // window.location="/user/newuser/added";
     }
+   
 
 
     render(){
@@ -69,12 +81,16 @@ export default class UserEmail extends Component{
             </div>
             <div>
                 <button type="submit" value="submit">Submit</button>
+                
+                
             </div>
             </form>
             </div>
+            
+          
             
         )
     }
 }
 
-// 
+// module.exports = user;

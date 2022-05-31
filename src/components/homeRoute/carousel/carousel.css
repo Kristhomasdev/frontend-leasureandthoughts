@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@media (min-width: 0em) and (max-width: 37.5em) {
+  #carousel-image {
+    height: 20rem;
+    width: 100%;
+    -webkit-filter: opacity(50%);
+            filter: opacity(50%);
+  }
+  #carousel-heading {
+    margin-top: -45%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    z-index: 5;
+    position: absolute;
+    color: #383838;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+  }
+  #uppercase {
+    font-size: 2.3rem;
+  }
+  #carousel-button {
+    margin-top: 7%;
+    border: 2px solid;
+  }
+  #carousel-button:hover {
+    outline: none;
+    border: 0px;
+  }
+}
+/*# sourceMappingURL=carousel.css.map */
