@@ -4,6 +4,7 @@
 @include respond(phone){
     body{
         box-sizing: border-box;
+        
     }
     
 #carousel-image{
@@ -12,7 +13,7 @@
     // filter: blur(.8px);
     filter:opacity(50%); 
 }
-#carousel-heading{
+#carousel-text{
     position:absolute;
     top: 11rem;
     
@@ -43,16 +44,167 @@
 
 }
 @include respond(tab-potrait){
+    #carousel-image{
+        height: 25rem;
+        width:100%;
+        filter: opacity(40%);
+    }
+    #carousel-text{
+        // position:absolute;
+    top: 11rem;
+    
+    
+    // @include centerText();
+    text-align:center;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    z-index: 5;
+    position: absolute;
+    color: #383838;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
 
+    }
+    #uppercase{
+        font-size:2.6rem;
+    }
+    #carousel-button{
+        margin-top: 7.8%;
+        border: 2.2px solid;
+        width: 12rem;
+        height: 2.5rem;
+    }
+    #carousel-button:hover{
+        outline: none;
+        border:0px;
+        
+    }
+ 
 }
 @include respond(tab-landscape){
+    #carousel-image{
+        height: 27rem;
+        width:100%;
+        filter: opacity(40%);
+    }
+    #carousel-text{
+        // position:absolute;
+    top: 11rem;
+    
+    
+    // @include centerText();
+    text-align:center;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    z-index: 5;
+    position: absolute;
+    color: #383838;
+    font-size: 1.9rem;
+    letter-spacing: .7rem;
+
+    }
+    #uppercase{
+        font-size:3rem;
+    }
+    #carousel-button{
+        margin-top: 7.8%;
+        border: 2.2px solid;
+        width: 12.4rem;
+        height: 2.7rem;
+    }
+    #carousel-button:hover{
+        outline: none;
+        border:0px;
+        
+    }
 
 }
 
 @include respond(laptop){
+    #carousel-image{
+        height: 90vh;
+        width:100%;
+        filter: opacity(40%);
+    }
+    #carousel-text{
+        // position:absolute;
+    top: 22rem;
+    
+    
+    // @include centerText();
+    text-align:center;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    z-index: 5;
+    position: absolute;
+    color: #383838;
+    font-size: 7rem;
+    letter-spacing: 1.9rem;
+
+    }
+    #carousel-heading{
+        font-size:3rem;
+    }
+    #uppercase{
+        font-size:4.6rem;
+    }
+    #carousel-button{
+        margin-top: 4%;
+        border: 2.2px solid;
+        width: 13rem;
+        height: 3.7rem;
+        font-size:1.2rem;
+        letter-spacing: .7rem;
+    }
+    #carousel-button:hover{
+        outline: none;
+        border:0px;
+        
+    }
 
 }
 
 @include respond(desktop){
+    #carousel-image{
+        height: 90vh;
+        width:100%;
+        filter: opacity(40%);
+    }
+    #carousel-text{
+        // position:absolute;
+    top: 20rem;
+    
+    
+    // @include centerText();
+    text-align:center;
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    z-index: 5;
+    position: absolute;
+    color: #383838;
+    font-size: 7rem;
+    letter-spacing: 2.2rem;
+
+    }
+    #carousel-heading{
+        font-size:4rem;
+    }
+    #uppercase{
+        font-size:5.6rem;
+    }
+    #carousel-button{
+        margin-top: 4%;
+        border: 2.2px solid;
+        width: 13.4rem;
+        height: 4rem;
+        font-size:1.3rem;
+        letter-spacing: .5rem;
+    }
+    #carousel-button:hover{
+        outline: none;
+        border:0px;
+        
+    }
 
 }
+

@@ -25,8 +25,8 @@ let SlidingImages = () =>{
         <Image src="images/sea.jpg" fluid id="carousel-image"/>
       </Carousel.Item>
     </Carousel>
-    <div id="carousel-heading">
-    <h1><span id="uppercase">E</span>xplore the <span id="uppercase">U</span>nexplored</h1>
+    <div id="carousel-text">
+    <h1 id="carousel-heading"><span id="uppercase">E</span>xplore the <span id="uppercase">U</span>nexplored</h1>
     <Button variant="outline-dark" id="carousel-button">Explore</Button>
     </div>
       </div>

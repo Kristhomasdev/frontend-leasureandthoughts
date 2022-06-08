@@ -17,33 +17,45 @@
 
 }
 @include respond(tab-potrait){
+    .trial{
+        height: 5.6rem;
+    }
     .navbar-brand{
         @include centerText();
 
     }
     #navbar-brand-icon{
-        height: 40px;
+        height: 60px;
         width:calc(height*3.45);
     }
 
 }
 @include respond(tab-landscape){
+    .trial{
+        height: 5.7rem;
+    }
     .navbar-brand{
         @include centerText();
     }
     #navbar-brand-icon{
-        height: 42px;
+        height: 63px;
         width: calc(height*3.45);
     }
 
 }
 @include respond(laptop){
+    .trial{
+        align-items: center;
+        justify-items: center;
+        height:6rem;
+    }
     .navbar-brand{
         @include centerText();
 
     }
     #navbar-brand-icon{
-        height: 45px;
+        height: 75px;
+        // margin-top: .4%;
         width: calc(height*3.45);
     }
 
@@ -51,12 +63,17 @@
 }
 
 @include respond(desktop){
+    .trial{
+        height: 6.3rem;
+
+    }
     .navbar-brand{
         @include centerText();
     }
     #navbar-brand-icon{
-        height:50px;
+        height:80px;
         width: calc(height*3.45);
+        border: 5px;
     }
 
 }  
