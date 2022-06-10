@@ -8,11 +8,11 @@
         flex-wrap: nowrap;
         height: 13rem;
         width: 100%;
-        background-color:#191A19;
+        background-color: whitesmoke;
         text-align: center;
 
- 
-        .manali-content{
+
+        .forest-content{
             text-align: center;
             font-family: 'Alfa Slab One', cursive;
             flex: 3;
@@ -23,15 +23,15 @@
             align-items: center;
             justify-content: center;
             
-            color:white;
+            color:#4E944F;
+            // C7D36F
             .content{
                 // border: 3px solid whitesmoke;
-                background-color:#191A19;
                 padding: 1.5rem;
-                box-shadow: 10px 10px 30px  5px black;
+                box-shadow: 10px 10px 30px  5px #4E944F;
                 border-radius: 30px;
                 display: flex;
-                flex-direction: column;
+                flex-direction: column; 
                 flex-wrap: nowrap;
                 // align-items: stretch;
                 // justify-items: auto;
@@ -39,27 +39,25 @@
                 align-items: center;
                 justify-content: center;
 
-                #manali-content-button{
+                #forest-content-button{
                     font-size: .5rem;
                     letter-spacing: .15rem;
                     // width: 3rem;
                     width: 40%;
                     text-align: center;
                 }
-                #manali-h3{
-                    color:white;
+                #forest-h3{
                     font-size:.6rem ;
                 }
 
             }
-            #manali-header{
-                color:white;
+            #forest-header{
                
                 font-size:1rem;
             }
 
         }
-        .manali-image{
+        .forest-image{
             height: inherit;
             display: flex;
             justify-content:center;
@@ -67,14 +65,14 @@
             flex-wrap: nowrap;
             flex:1;
         //    
-            #manali-image-image{
+            #forest-image-image{
                 background-size: cover;
                 height: 6rem;
                 width: 70%;
                 // filter: grayscale(100%);
                 // border: 3px solid whitesmoke;
                 border-radius: 100%;
-                box-shadow :3px 3px 20px  whitesmoke;
+                box-shadow :3px 3px 20px  #4E944F;
             }
             // @keyframes 
         }
@@ -83,9 +81,7 @@
     //     margin-top: auto;
     //     transform:translateY(-60%);
     // }
-#divToBeFlexed{
-    background-color: #191A19;
-}
+
 
 }
 
@@ -96,12 +92,12 @@
         flex-wrap: nowrap;
         height: 18rem;
         width: 100%;
-        background-color: #191A19;
+        background-color: white;
         justify-content: space-evenly;
         text-align: center;
 
 
-        .manali-content{
+        .forest-content{
             text-align: center;
             font-family: 'Alfa Slab One', cursive;
             flex: 2;
@@ -112,7 +108,7 @@
             align-items: center;
             justify-content: center;
             
-            color:white;
+            color:black;
             .content{
                 // border: 3px solid whitesmoke;
                 padding: 1.5rem;//See to it
@@ -127,17 +123,18 @@
                 align-items: center;
                 justify-content: center;
 
-                #manali-content-button{
+                #forest-content-button{
                     font-size: .5rem;
                     letter-spacing: .15rem;
                     // width: 3rem;
                     width: 40%;
                     text-align: center;
                 }
-                #manali-h3{
+                #forest-h3{
+                    color:black;
                     font-size:.6rem ; //See to it
                 }
-                #manali-header{
+                #forest-header{
                
                 font-size:1rem; //
                 }
@@ -145,7 +142,7 @@
             
 
         }
-        .manali-image{
+        .forest-image{
             height: inherit;
             display: flex;
             justify-content:center;
@@ -153,7 +150,7 @@
             flex-wrap: nowrap;
             flex:2;
         //    
-            #manali-image-image{
+            #forest-image-image{
                 background-size: cover;
                 height: 6rem;
                 width: 70%;

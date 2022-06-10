@@ -1,7 +1,8 @@
-import react from "react";
+// import react from "react";
 import Header from "./header/header";
 import SlidingImages from "./carousel/carousel";
 import Manali from "./manali/manali";
+import Forest from "./secondCardLikeManali/forest";
 
 
 let HomePage = ()=>{
@@ -10,6 +11,7 @@ let HomePage = ()=>{
         <Header/>
         <SlidingImages/>
         <Manali/>
+        <Forest />
     </div>
     )
 };

@@ -12,10 +12,10 @@
         flex-wrap: nowrap;
     height: 13rem;
     width: 100%;
-    background-color: #191A19;
+    background-color: whitesmoke;
     text-align: center;
   }
-  .divToBeFlexed .manali-content {
+  .divToBeFlexed .forest-content {
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
     -webkit-box-flex: 3;
@@ -36,13 +36,12 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: white;
+    color: #4E944F;
   }
-  .divToBeFlexed .manali-content .content {
-    background-color: #191A19;
+  .divToBeFlexed .forest-content .content {
     padding: 1.5rem;
-    -webkit-box-shadow: 10px 10px 30px  5px black;
-            box-shadow: 10px 10px 30px  5px black;
+    -webkit-box-shadow: 10px 10px 30px  5px #4E944F;
+            box-shadow: 10px 10px 30px  5px #4E944F;
     border-radius: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -63,21 +62,19 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .divToBeFlexed .manali-content .content #manali-content-button {
+  .divToBeFlexed .forest-content .content #forest-content-button {
     font-size: .5rem;
     letter-spacing: .15rem;
     width: 40%;
     text-align: center;
   }
-  .divToBeFlexed .manali-content .content #manali-h3 {
-    color: white;
+  .divToBeFlexed .forest-content .content #forest-h3 {
     font-size: .6rem;
   }
-  .divToBeFlexed .manali-content #manali-header {
-    color: white;
+  .divToBeFlexed .forest-content #forest-header {
     font-size: 1rem;
   }
-  .divToBeFlexed .manali-image {
+  .divToBeFlexed .forest-image {
     height: inherit;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -94,16 +91,13 @@
         -ms-flex: 1;
             flex: 1;
   }
-  .divToBeFlexed .manali-image #manali-image-image {
+  .divToBeFlexed .forest-image #forest-image-image {
     background-size: cover;
     height: 6rem;
     width: 70%;
     border-radius: 100%;
-    -webkit-box-shadow: 3px 3px 20px  whitesmoke;
-            box-shadow: 3px 3px 20px  whitesmoke;
-  }
-  #divToBeFlexed {
-    background-color: #191A19;
+    -webkit-box-shadow: 3px 3px 20px  #4E944F;
+            box-shadow: 3px 3px 20px  #4E944F;
   }
 }
 
@@ -120,13 +114,13 @@
         flex-wrap: nowrap;
     height: 18rem;
     width: 100%;
-    background-color: #191A19;
+    background-color: white;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     text-align: center;
   }
-  .divToBeFlexed .manali-content {
+  .divToBeFlexed .forest-content {
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
     -webkit-box-flex: 2;
@@ -147,9 +141,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: white;
+    color: black;
   }
-  .divToBeFlexed .manali-content .content {
+  .divToBeFlexed .forest-content .content {
     padding: 1.5rem;
     -webkit-box-shadow: 10px 10px 30px  5px black;
             box-shadow: 10px 10px 30px  5px black;
@@ -173,19 +167,20 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .divToBeFlexed .manali-content .content #manali-content-button {
+  .divToBeFlexed .forest-content .content #forest-content-button {
     font-size: .5rem;
     letter-spacing: .15rem;
     width: 40%;
     text-align: center;
   }
-  .divToBeFlexed .manali-content .content #manali-h3 {
+  .divToBeFlexed .forest-content .content #forest-h3 {
+    color: black;
     font-size: .6rem;
   }
-  .divToBeFlexed .manali-content .content #manali-header {
+  .divToBeFlexed .forest-content .content #forest-header {
     font-size: 1rem;
   }
-  .divToBeFlexed .manali-image {
+  .divToBeFlexed .forest-image {
     height: inherit;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -202,7 +197,7 @@
         -ms-flex: 2;
             flex: 2;
   }
-  .divToBeFlexed .manali-image #manali-image-image {
+  .divToBeFlexed .forest-image #forest-image-image {
     background-size: cover;
     height: 6rem;
     width: 70%;
@@ -246,4 +241,4 @@
             flex-direction: row;
   }
 }
-/*# sourceMappingURL=manali.css.map */
+/*# sourceMappingURL=forest.css.map */

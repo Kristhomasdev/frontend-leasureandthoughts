@@ -9,7 +9,7 @@ import './manali.css';
 
 let Manali = ()=>{
     return(
-        <div className="divToBeFlexed">
+        <div className="divToBeFlexed" id="divToBeFlexed">
             <div className="manali-content">
             <div className="content">
             <h1 id="manali-header"> Manali like never before </h1>
