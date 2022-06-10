@@ -1,6 +1,7 @@
 import react from "react";
 import Header from "./header/header";
 import SlidingImages from "./carousel/carousel";
+import Manali from "./manali/manali";
 
 
 let HomePage = ()=>{
@@ -8,6 +9,7 @@ let HomePage = ()=>{
     <div>
         <Header/>
         <SlidingImages/>
+        <Manali/>
     </div>
     )
 };

@@ -1,0 +1,114 @@
+@import "../mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@include respond(phone){
+    .divToBeFlexed{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 13rem;
+        width: 100%;
+        background-color: #191A19;
+        text-align: center;
+
+
+        .manali-content{
+            text-align: center;
+            font-family: 'Alfa Slab One', cursive;
+            flex: 3;
+            // border: 3px solid whitesmoke;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            
+            color:white;
+            .content{
+                // border: 3px solid whitesmoke;
+                padding: 1.5rem;
+                box-shadow: 10px 10px 30px  5px black;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                // align-items: stretch;
+                // justify-items: auto;
+                justify-content: space-between;
+                align-items: center;
+                justify-content: center;
+
+                #manali-content-button{
+                    font-size: .5rem;
+                    letter-spacing: .15rem;
+                    // width: 3rem;
+                    width: 40%;
+                    text-align: center;
+                }
+                #manali-h3{
+                    font-size:.6rem ;
+                }
+
+            }
+            #manali-header{
+               
+                font-size:1rem;
+            }
+
+        }
+        .manali-image{
+            height: inherit;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-wrap: nowrap;
+            flex:1;
+        //    
+            #manali-image-image{
+                background-size: cover;
+                height: 6rem;
+                width: 70%;
+                // filter: grayscale(100%);
+                // border: 3px solid whitesmoke;
+                border-radius: 100%;
+                box-shadow :3px 3px 20px  whitesmoke;
+            }
+            // @keyframes 
+        }
+    }
+    // .divToBeFlexed div{
+    //     margin-top: auto;
+    //     transform:translateY(-60%);
+    // }
+
+
+}
+
+@include respond(tab-potrait){
+    .divToBeFlexed{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+@include respond(tab-landscape){
+    .divToBeFlexed{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@include respond(laptop){
+    .divToBeFlexed{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+@include respond(desktop){
+    .divToBeFlexed{
+        display: flex;
+        flex-direction: row;
+    }
+
+}

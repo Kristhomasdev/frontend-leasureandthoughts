@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .divToBeFlexed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 13rem;
+    width: 100%;
+    background-color: #191A19;
+    text-align: center;
+  }
+  .divToBeFlexed .manali-content {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+  .divToBeFlexed .manali-content .content {
+    padding: 1.5rem;
+    -webkit-box-shadow: 10px 10px 30px  5px black;
+            box-shadow: 10px 10px 30px  5px black;
+    border-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divToBeFlexed .manali-content .content #manali-content-button {
+    font-size: .5rem;
+    letter-spacing: .15rem;
+    width: 40%;
+    text-align: center;
+  }
+  .divToBeFlexed .manali-content .content #manali-h3 {
+    font-size: .6rem;
+  }
+  .divToBeFlexed .manali-content #manali-header {
+    font-size: 1rem;
+  }
+  .divToBeFlexed .manali-image {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .divToBeFlexed .manali-image #manali-image-image {
+    background-size: cover;
+    height: 6rem;
+    width: 70%;
+    border-radius: 100%;
+    -webkit-box-shadow: 3px 3px 20px  whitesmoke;
+            box-shadow: 3px 3px 20px  whitesmoke;
+  }
+}
+
+@media (min-width: 37.6em) and (max-width: 56.7em) {
+  .divToBeFlexed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 56.71em) and (max-width: 75em) {
+  .divToBeFlexed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .divToBeFlexed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 112.6em) {
+  .divToBeFlexed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=manali.css.map */
