@@ -3,6 +3,8 @@ import Header from "./header/header";
 import SlidingImages from "./carousel/carousel";
 import Manali from "./manali/manali";
 import Forest from "./secondCardLikeManali/forest";
+import Form from "./userDetails/user";
+import BlogLink from "./linktoblog/linktoblog";
 
 
 let HomePage = ()=>{
@@ -12,6 +14,8 @@ let HomePage = ()=>{
         <SlidingImages/>
         <Manali/>
         <Forest />
+        <Form />
+        <BlogLink />
     </div>
     )
 };

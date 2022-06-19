@@ -1,0 +1,28 @@
+//Google AI's;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "../mixins.scss";
+
+@include respond(phone){
+    .formFlexed{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Fredoka One', cursive;
+        color:#9EB23B;
+        justify-content: center;
+        align-items: center;
+    }
+    .formFlexed div{
+        margin-bottom:3rem;
+    }
+
+    input{
+        width: 50%;
+        border-radius: 10px;
+        text-align: center;
+        background-color:#9EB23B;
+        margin-bottom:.8rem;
+
+
+    } 
+
+} 

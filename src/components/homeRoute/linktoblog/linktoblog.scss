@@ -1,0 +1,36 @@
+@import "../mixins.scss";
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+//
+@include respond(phone){
+    .divFlexed{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        // border: 3px solid;
+        margin-top:5%;
+
+    }
+    .div-linktoblog{
+        // border: 3px pink solid;
+        background-color: #eee;
+        box-shadow: 10px 10px 5px 00px #73777B; 
+        padding:5%;
+        
+        
+    }
+    #div-linktoblog-heading{
+        font-size:1.2rem;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: .3rem;
+    }
+    #div-linktoblog-heading-h3{
+        font-size: .8rem;
+    }
+    #blog-link{
+        color:black;
+        text-decoration: none;
+    }
+}
