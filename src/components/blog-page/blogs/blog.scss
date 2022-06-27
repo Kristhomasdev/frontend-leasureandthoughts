@@ -3,7 +3,11 @@
 @include respond(phone){
     .blog-div{
         background-color: #eee;
-        padding:10%
+        padding:10%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
 
     }
