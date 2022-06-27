@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACEQ,MAAM,EAAE,SAAS,EAAE,GAAG,OAAO,SAAS,EAAE,MAAM;EDClD,AAAA,SAAS,CAAA;IACL,gBAAgB,EAAE,IAAI;IACtB,OAAO,EAAC,GAGZ;GAAC;EACD,AAAA,UAAU,CAAA;IACN,aAAa,EAAE,IAAI;IAGnB,OAAO,EAAC,EAAE;IACV,aAAa,EAAC,EAAE;GACnB",
     "sources": [
-        "blog.scss"
+        "blog.scss",
+        "../mixins.scss"
     ],
     "names": [],
     "file": "blog.css"

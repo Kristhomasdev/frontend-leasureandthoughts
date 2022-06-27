@@ -1,5 +1,8 @@
 import axios from "axios";
 import {useEffect,useState} from "react";
+import "./blog.css";
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 let Blogpage = ()=>{
     const [blogs,setBlogs] = useState([]);
@@ -22,15 +25,20 @@ let Blogpage = ()=>{
 
 
     return(
-        <div>
-            <h1>This is Blog age .... </h1>
+        <div className="blog-div">
+            
             {
                 blogs.map(blog =>(
                     
-                        <div>
-                        <h1>{blog.title}</h1>
-                        <h2>{blog.body}</h2>
-                        </div>
+                        
+                        <Card style={{ width: '18rem' }} className="blog-card">
+  <Card.Img variant="top" src="https://images.pexels.com/photos/936583/pexels-photo-936583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+  <Card.Body>
+    <Card.Title>{blog.title}</Card.Title>
+    
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
                     )
 
                 

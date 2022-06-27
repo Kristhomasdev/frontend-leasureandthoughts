@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=blog.css.map */
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .blog-div {
+    background-color: #eee;
+    padding: 10%;
+  }
+  .blog-card {
+    border-radius: 15px;
+    padding: 5%;
+    margin-bottom: 3%;
+  }
+}
+/*# sourceMappingURL=blog.css.map */
