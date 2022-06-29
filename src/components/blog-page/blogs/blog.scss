@@ -8,16 +8,32 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        // animation-duration:1s;
 
     }
+  
     .blog-card{
         border-radius: 15px;
         // box-shadow: ;
         // background-color: olive;
         padding:5%;
         margin-bottom:3%;
+        border: 0.1px solid black;
+        
     }
+    
+    .blog-image{
+        border-radius:10px;
+
+    }
+    .blog-button{
+        width:5rem;
+        // height: 2rem;
+        letter-spacing: .2rem;
+
+
+    }
+
 
 
 

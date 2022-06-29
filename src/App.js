@@ -7,7 +7,9 @@ import CreateUser from "./components/useremail/useremail";
 import SlidingImages from "./components/homeRoute/carousel/carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./components/homeRoute/MAIN";
-import Blogpage from './components/blog-page/blogs/blog';
+// import Blogpage from './components/blog-page/blogs/blog';
+import BLOG from "./components/blog-page/BLOGMAIN";
+
 
 
 
@@ -22,7 +24,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>} />
       
-      <Route path="/blogs" element = {<Blogpage />} />
+      <Route path="/blogs" element = {<BLOG />} />
       
     </Routes>
     

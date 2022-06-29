@@ -20,6 +20,14 @@
     border-radius: 15px;
     padding: 5%;
     margin-bottom: 3%;
+    border: 0.1px solid black;
+  }
+  .blog-image {
+    border-radius: 10px;
+  }
+  .blog-button {
+    width: 5rem;
+    letter-spacing: .2rem;
   }
 }
 /*# sourceMappingURL=blog.css.map */
