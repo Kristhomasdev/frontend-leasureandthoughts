@@ -32,7 +32,7 @@ let Blogpage = ()=>{
                     
                         
                         <Card style={{ width: '18rem' }} className="blog-card">
-                    <Card.Img variant="top" src={blog.src} className="blog-image"/>
+                    <Card.Img variant="top" src={blog.src} className="blog-image" fluid/>
   <Card.Body>
     <Card.Title>{blog.phrase}</Card.Title>
     
