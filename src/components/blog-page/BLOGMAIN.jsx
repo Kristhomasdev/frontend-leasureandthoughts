@@ -1,4 +1,4 @@
-import Header from "../homeRoute/header/header";
+import Header from "../header/header";
 import Blogpage from "./blogs/blog";
 
 

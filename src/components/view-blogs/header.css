@@ -1,0 +1,80 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .trial {
+    height: 5rem;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 55px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 37.6em) and (max-width: 56.7em) {
+  .trial {
+    height: 5.6rem;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 60px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 56.71em) and (max-width: 75em) {
+  .trial {
+    height: 5.7rem;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 63px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .trial {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    height: 6rem;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 75px;
+    width: calc(height*3.45);
+  }
+}
+
+@media (min-width: 112.6em) {
+  .trial {
+    height: 6.3rem;
+  }
+  .navbar-brand {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #navbar-brand-icon {
+    height: 80px;
+    width: calc(height*3.45);
+    border: 5px;
+  }
+}
+/*# sourceMappingURL=header.css.map */

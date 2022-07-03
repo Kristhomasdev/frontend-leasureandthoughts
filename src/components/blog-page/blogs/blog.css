@@ -31,5 +31,12 @@
     width: 5rem;
     letter-spacing: .2rem;
   }
+  .blog-read-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  .blog-read-link:hover {
+    color: #fff;
+  }
 }
 /*# sourceMappingURL=blog.css.map */

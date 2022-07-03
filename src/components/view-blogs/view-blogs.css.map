@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "view-blogs.scss",
+        "mixins.scss"
+    ],
+    "names": [],
+    "file": "view-blogs.css"
+}

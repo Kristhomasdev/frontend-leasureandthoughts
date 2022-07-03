@@ -3,11 +3,12 @@ import {useEffect,useState} from "react";
 import "./blog.css";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import {Link} from "react-router-dom";
 
 let Blogpage = ()=>{
     const [blogs,setBlogs] = useState([]);
     let loadBlogs = async ()=>{
-        let result = await axios.get("https://leisureandthoughts-blog.herokuapp.com/blog");
+        let result = await axios.get("https://leisureandthoughts-blogbackend.herokuapp.com/blog");
         setBlogs(result.data);
         // console.log(result.data);
         console.log(blogs);
@@ -36,7 +37,7 @@ let Blogpage = ()=>{
   <Card.Body>
     <Card.Title>{blog.phrase}</Card.Title>
     
-    <Button variant="dark" className="blog-button"> Read </Button>
+    <Button variant="dark" className="blog-button"><Link to={`${blog._id}`} className="blog-read-link">Read</Link>  </Button>
   </Card.Body>
 </Card>
                     )

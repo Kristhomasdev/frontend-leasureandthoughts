@@ -1,14 +1,15 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Link} from "react-router-dom";
-import CreateUser from "./components/useremail/useremail";
+
+
 // import {user} from "./components/useremail/useremail";
 // import Sucess from "./components/useremail/userSucess";
-import SlidingImages from "./components/homeRoute/carousel/carousel";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./components/homeRoute/MAIN";
 // import Blogpage from './components/blog-page/blogs/blog';
 import BLOG from "./components/blog-page/BLOGMAIN";
+import VBLOG from "./components/view-blogs/V-BLOG";
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="/" element={<HomePage/>} />
       
       <Route path="/blogs" element = {<BLOG />} />
+      <Route path="/blogs/:id" element={<VBLOG />} />
       
     </Routes>
     
