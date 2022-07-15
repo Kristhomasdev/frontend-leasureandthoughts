@@ -4,12 +4,16 @@ import React from "react";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import './manali.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 
 let Manali = ()=>{
     return(
-        <div className="divToBeFlexed" id="divToBeFlexed">
+        <div data-aos="fade-right" data-aos-duration="3000" className="divToBeFlexed" id="divToBeFlexed"  >
             <div className="manali-content">
             <div className="content">
             <h1 id="manali-header"> Manali like never before </h1>
